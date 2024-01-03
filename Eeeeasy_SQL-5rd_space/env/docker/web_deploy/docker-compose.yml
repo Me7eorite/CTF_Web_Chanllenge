@@ -1,9 +1,0 @@
-version: "3"
-services: 
-  taskdemo: 
-    build: .
-    image: ctf_sql
-    ports: 
-      - "8081:80"
-    environment:
-      - FLAG=flag{42d64929-d2b9-4ae9-945d-dbb1630c1a84}
